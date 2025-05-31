@@ -98,27 +98,28 @@ python consumer.py // or uv run producer.py
 
 # Launch Dashboard
 streamlit run streamlit_app.py
----
+___
 
 #📸 Sample Dashboard
----
+___
 Screenshots
 ![Screenshot 2025-05-31 134606](https://github.com/user-attachments/assets/4575fede-8f49-4827-86f9-e1cb8705d884)
 ![Screenshot 2025-05-31 134631](https://github.com/user-attachments/assets/d9b40eb0-4151-4b4b-937e-568adab397eb)
 ![Screenshot 2025-05-31 134649](https://github.com/user-attachments/assets/80ccd1d1-828d-43e3-a3bb-439925597d45)
 
 
----
+___
 🙌 Acknowledgments
-**USGS Earthquake API
-**Kafka
-**Streamlit
-**PostgreSQL
----
+*USGS Earthquake API
+*Kafka
+*Streamlit
+*PostgreSQL
+___
 📬 Contact
 Saud Muhammad
 📧 saudmuhammad.zbi786@gmail.com
----
+___
 🔗 www.linkedin.com/in/saud-muhammad-8bbb98368
----
+___
 🔗 www.github.com/saudmohd
+___
