@@ -10,7 +10,7 @@ This project implements a **real-time data pipeline** that ingests, processes, a
 - 📊 **Streamlit Dashboard** for interactive visualization
 - ✅ Modular Python scripts for Producer, Consumer, Transform, Load, and Fetch operations
 
----
+  ---
 
 ## 🧱 Tech Stack
 
@@ -98,22 +98,27 @@ python consumer.py // or uv run producer.py
 
 # Launch Dashboard
 streamlit run streamlit_app.py
-📸 Sample Dashboard
+---
+
+#📸 Sample Dashboard
+---
 Screenshots
 ![Screenshot 2025-05-31 134606](https://github.com/user-attachments/assets/4575fede-8f49-4827-86f9-e1cb8705d884)
 ![Screenshot 2025-05-31 134631](https://github.com/user-attachments/assets/d9b40eb0-4151-4b4b-937e-568adab397eb)
 ![Screenshot 2025-05-31 134649](https://github.com/user-attachments/assets/80ccd1d1-828d-43e3-a3bb-439925597d45)
 
 
-
+---
 🙌 Acknowledgments
 **USGS Earthquake API
 **Kafka
 **Streamlit
 **PostgreSQL
-
+---
 📬 Contact
 Saud Muhammad
 📧 saudmuhammad.zbi786@gmail.com
+---
 🔗 www.linkedin.com/in/saud-muhammad-8bbb98368
+---
 🔗 www.github.com/saudmohd
