@@ -27,18 +27,18 @@ This project implements a **real-time data pipeline** that ingests, processes, a
 
 ## 🗂️ Project Structure
 
+```
 rt_disasterResponseDP/
-├── producer.py # Sends earthquake data to Kafka
-├── consumer.py # Consumes messages and loads into PostgreSQL
-├── transform.py # Cleans/transforms raw data
-├── load.py # Inserts data into PostgreSQL
-├── fetch.py # Fetches data from USGS API
-├── streamlit_app.py # Dashboard visualization
+├── producer.py          # Sends earthquake data to Kafka
+├── consumer.py          # Consumes messages and loads into PostgreSQL
+├── transform.py         # Cleans/transforms raw data
+├── load.py              # Inserts data into PostgreSQL
+├── fetch.py             # Fetches data from USGS API
+├── streamlit_app.py     # Dashboard visualization
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
----
+```
 
 ## ⚙️ How It Works
 
