@@ -24,6 +24,26 @@ This project implements a **real-time data pipeline** that ingests, processes, a
 | Orchestration    | CLI Scripts                             |
 
 ---
+## 🧠 ETL Pipeline Overview
+
+This project follows a real-time ETL (Extract, Transform, Load) pipeline:
+
+- **Extract**:  
+  - `fetch.py` retrieves real-time earthquake data from the [USGS Earthquake API](https://earthquake.usgs.gov/fdsnws/event/1/).
+  - `producer.py` sends this data to an Apache Kafka topic (`earthquakes`).
+
+- **Transform**:  
+  - `consumer.py` reads data from Kafka.
+  - `transform.py` parses and cleans the data (e.g., extracting magnitude, location, time, coordinates).
+
+- **Load**:  
+  - `load.py` inserts the transformed data into a PostgreSQL database with proper schema handling and deduplication (via `ON CONFLICT`).
+
+- **Visualize**:  
+  - `streamlit_app.py` provides a real-time interactive dashboard to explore earthquake data visually.
+
+---
+
 
 ## 🗂️ Project Structure
 
